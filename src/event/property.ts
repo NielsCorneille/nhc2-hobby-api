@@ -1,4 +1,5 @@
 import { FanSpeed } from './FanSpeed';
+import { PositionState } from './PositionState';
 
 export interface Property {
   Brightness?: string;
@@ -7,4 +8,5 @@ export interface Property {
   BasicState?: string;
   FanSpeed?: FanSpeed;
   Moving?: string;
+  LastDirection?: PositionState;
 }
